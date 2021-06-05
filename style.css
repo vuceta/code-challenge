@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap");
+:root {
+  --red: #6d2e46; /* rgb(109, 46, 70) */
+  --orange: #a26769; /* rgb(162, 103, 105) */
+  --vanila: #d5b9b2; /* rgb(213, 185, 178) */
+  --body: #ece2d0; /* rgb(236, 226, 208) */
+  --white: #fff;
+  --text: #333;
+  --fontSize: 16px;
+}
+/*BASIC*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  background: var(--body);
+  color: var(--text);
+  line-height: 1.7;
+}
+.container {
+  max-width: 1500px;
+  margin: auto;
+}
+/*HEADER*/
+header {
+  background-image: linear-gradient(
+      rgba(162, 103, 105, 0.85),
+      rgba(236, 226, 208, 0.98)
+    ),
+    url(/grid-code-challenge/img/header.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 220px 0;
+  text-align: center;
+}
+header h1 {
+  font-size: 4.2rem;
+  font-weight: 400;
+  color: var(--white);
+}
+header i {
+  text-decoration: none;
+  color: var(--red);
+  font-size: 4rem;
+}
+header p {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+button {
+  padding: 15px 50px;
+  margin-top: 25px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  border: none;
+  background: var(--red);
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+button:hover {
+  border-radius: 5px;
+  background: var(--orange);
+}
+/*one*/
+.one {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.one h3 {
+  font-size: 2rem;
+}
+.one i {
+  font-size: 4rem;
+  color: var(--red);
+  padding: 25px;
+}
+.one article {
+  margin-left: 20px;
+  padding: 30px;
+}
+.btn {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/*two*/
+.middle {
+  background: var(--orange);
+  color: var(--white);
+  text-align: center;
+  padding: 60px;
+  
+}
+.two {
+  display: flex;
+  justify-content: center;
+  
+}
+.middle h3 {
+  font-size: 2.5rem;
+}
+.middle .naslov p {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.naslov {
+  padding: 20px;
+}
+.middle img {
+  width: 100%;
+}
+.two article {
+  margin-left: 20px;
+  padding: 30px;
+}
+.two p {
+  text-align: justify;
+  margin-top: 20px;
+  font-weight: 400;
+}
+/*three*/
+.end {
+  background: var(--body);
+  color: var(--text);
+  text-align: center;
+  padding: 60px;
+  
+}
+.blog {
+  display: flex;
+  justify-content: center;
+  
+}
+.end h3 {
+  font-size: 2.5rem;
+}
+.end .text-three p {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.text-three {
+  padding: 20px;
+}
+.end img {
+  width: 100%;
+}
+.blog article {
+  margin-left: 20px;
+  padding: 30px;
+}
+.blog p {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 400;
+}
+footer {
+  background: var(--red);
+  text-align: center;
+  padding: 50px;
+  color: var(--white);
+  font-weight: 400;
+}
+
+
+
